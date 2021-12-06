@@ -107,6 +107,9 @@ def find_locations():
                 if line.startswith(b"#"):
                     continue
                 pieces = line.split(b"\t")
+                tz = pieces[TIMEZONE]
+                if not tz:
+                    continue
                 feature_code = pieces[FEATURE_CODE]
                 definite_location = True
                 aliases = []
@@ -140,7 +143,7 @@ def find_locations():
                     country=memoize_str(pieces[COUNTRY_CODE]),
                     admin_code=admin_code,
                     kind=kind,
-                    tz=memoize_str(pieces[TIMEZONE]),
+                    tz=memoize_str(tz),
                     geoid=geoid,
                     sort_key=(
                         pieces[FEATURE_CODE] != b"PPLC",

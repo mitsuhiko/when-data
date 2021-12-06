@@ -239,7 +239,6 @@ Grytviken		GS		city	Atlantic/South_Georgia
 Palikir - National Government Center		FM		city	Pacific/Pohnpei
 Plymouth		MS		city	America/Montserrat
 Ngerulmud		PW		city	Pacific/Palau
-United States		US		city	
 California	California;California Republic;Golden State;State of California	US	CA	division	America/Los_Angeles
 Texas	Texas;Lone Star State;State of Texas	US	TX	division	America/Chicago
 New York	Empire State;New York;State of New York;New York State	US	NY	division	America/New_York
@@ -6480,31 +6479,23 @@ Washington County	Washington	US	DC	division	America/New_York
 Prince of Wales-Hyder Census Area	Prince of Wales-Hyder	US	AK	division	America/Juneau
 Kusilvak Census Area	Kusilvak	US	AK	division	America/Nome
 Indian Subcontinent		IN		city	Asia/Kolkata
-People's Republic of China		CN		city	
 Republic of India		IN		city	Asia/Kolkata
-Republic of Indonesia		ID		city	
 Islamic Republic of Pakistan		PK		city	Asia/Karachi
-Federative Republic of Brazil		BR		city	
 Uttar Pradesh	Uttar Pradesh;State of Uttar Pradesh	IN		division	Asia/Kolkata
 Federal Republic of Nigeria		NG		city	Africa/Lagos
 Bangladesh		BD		city	Asia/Dhaka
-Russian Federation		RU		city	
 Japan		JP		city	Asia/Tokyo
-Mexico		MX		city	
 State of Maharashtra	Maharashtra	IN		division	Asia/Kolkata
 Federal Democratic Republic of Ethiopia		ET		city	Africa/Addis_Ababa
 Republic of the Philippines		PH		city	Asia/Manila
 Guangdong Sheng	Guangdong;Guangdong Province	CN		division	Asia/Shanghai
 State of Bihar	Bihar	IN		division	Asia/Kolkata
 Arab Republic of Egypt		EG		city	Africa/Cairo
-Socialist Republic of Vietnam		VN		city	
 Henan Sheng	Henan	CN		division	Asia/Shanghai
 Shandong Sheng	Shandong	CN		division	Asia/Shanghai
 West Bengal	West Bengal;State of West Bengal	IN		division	Asia/Kolkata
 Sichuan Sheng	Sichuan	CN		division	Asia/Shanghai
 Punjab Province	Punjab	PK		division	Asia/Karachi
-Democratic Republic of the Congo		CD		city	
-Federal Republic of Germany		DE		city	
 Republic of Turkey		TR		city	Europe/Istanbul
 Islamic Republic of Iran		IR		city	Asia/Tehran
 Jiangsu Sheng	Jiangsu	CN		division	Asia/Shanghai
@@ -6532,11 +6523,8 @@ Zhejiang Sheng	Zhejiang	CN		division	Asia/Shanghai
 Republic of Colombia		CO		city	America/Bogota
 State of Andhra Pradesh	Andhra Pradesh	IN		division	Asia/Kolkata
 Guangxi Zhuangzu Zizhiqu	Guangxi Zhuang Autonomous Region;Guangxi	CN		division	Asia/Shanghai
-Kingdom of Spain		ES		city	
 Yunnan Sheng	Yunnan Province;Yunnan	CN		division	Asia/Shanghai
 Jawa Barat	West Java	ID		division	Asia/Jakarta
-Ukraine		UA		city	
-Argentine Republic		AR		city	
 Jiangxi Sheng	Jiangxi	CN		division	Asia/Shanghai
 Liaoning Sheng	Liaoning Province;Liaoning	CN		division	Asia/Shanghai
 Republic of Uganda		UG		city	Africa/Kampala
@@ -6548,7 +6536,6 @@ Heilongjiang Sheng	Heilongjiang	CN		division	Asia/Shanghai
 Republic of Poland		PL		city	Europe/Warsaw
 Guizhou Sheng	Guizhou	CN		division	Asia/Shanghai
 Islamic Republic of Afghanistan		AF		city	Asia/Kabul
-Canada		CA		city	
 Fujian Sheng	Fujian	CN		division	Asia/Shanghai
 Kingdom of Morocco		MA		city	Africa/Casablanca
 Sindh	Sindh Province;Sindh	PK		division	Asia/Karachi
@@ -6558,9 +6545,7 @@ Provinsi Jawa Tengah	Central Java	ID		division	Asia/Jakarta
 Kingdom of Saudi Arabia		SA		city	Asia/Riyadh
 State of Kerala	Kerala	IN		division	Asia/Kolkata
 State of Jharkhand	Jharkhand	IN		division	Asia/Kolkata
-Republic of Uzbekistan		UZ		city	
 Republic of Peru		PE		city	America/Lima
-Malaysia		MY		city	
 Assam	State of Assam;Assam	IN		division	Asia/Kolkata
 Republic of Angola		AO		city	Africa/Luanda
 Republic of Ghana		GH		city	Africa/Accra
@@ -6579,7 +6564,6 @@ State of Chhattisgarh	Chhattisgarh	IN		division	Asia/Kolkata
 State of Haryana	Haryana	IN		division	Asia/Kolkata
 Republic of Cameroon		CM		city	Africa/Douala
 Republic of Cote d'Ivoire		CI		city	Africa/Abidjan
-Commonwealth of Australia		AU		city	
 Inner Mongolia Autonomous Region	Inner Mongolia;Inner Mongolia Autonomous Region	CN		division	Asia/Shanghai
 Taiwan		TW		city	Asia/Taipei
 Republic of Niger		NE		city	Africa/Niamey
@@ -6592,16 +6576,13 @@ Burkina Faso		BF		city	Africa/Ouagadougou
 Romania		RO		city	Europe/Bucharest
 Republic of Mali		ML		city	Africa/Bamako
 Shanghai Shi	Shanghai;Shanghai Municipality	CN		division	Asia/Shanghai
-Republic of Chile		CL		city	
 Rajshahi Division	Rajshahi Division	BD		division	Asia/Dhaka
-Republic of Kazakhstan		KZ		city	
 Nordrhein-Westfalen	North Rhine-Westphalia;Northrhine-Westphalia	DE		division	Europe/Berlin
 Republic of Malawi		MW		city	Africa/Blantyre
 Republic of Zambia		ZM		city	Africa/Lusaka
 Republic of Guatemala		GT		city	America/Guatemala
 Kingdom of the Netherlands		NL		city	Europe/Amsterdam
 Amhara Region	Amhara;The State of Amhara	ET		division	Africa/Addis_Ababa
-Republic of Ecuador		EC		city	
 Syrian Arab Republic		SY		city	Asia/Damascus
 National Capital Territory of Delhi	Delhi;National Capital Territory of Delhi	IN		division	Asia/Kolkata
 Estado de Mexico	State of Mexico;México	MX		division	America/Mexico_City
@@ -6651,7 +6632,6 @@ Czechia		CZ		city	Europe/Prague
 Lagos State	Lagos	NG		division	Africa/Lagos
 Shenzhen		CN		city	Asia/Shanghai
 Seoul	Seoul;Seoul-si	KR		division	Asia/Seoul
-Portuguese Republic		PT		city	
 Kingdom of Sweden		SE		city	Europe/Stockholm
 KwaZulu-Natal	KwaZulu-Natal	ZA		division	Africa/Johannesburg
 Central Luzon	Central Luzon	PH		division	Asia/Manila
@@ -6674,7 +6654,6 @@ State of Israel		IL		city	Asia/Jerusalem
 Osaka-fu	Ōsaka;Ōsaka Prefecture;Osaka;Osaka Prefecture	JP		division	Asia/Tokyo
 Ciudad de Mexico	Mexico City	MX		division	America/Mexico_City
 Republic of Austria		AT		city	Europe/Vienna
-Independent State of Papua New Guinea		PG		city	
 Quebec	Quebec	CA		division	America/Toronto
 Hainan Sheng	Hainan Province;Hainan	CN		division	Asia/Shanghai
 Switzerland		CH		city	Europe/Zurich
@@ -6785,7 +6764,6 @@ Republic of Costa Rica		CR		city	America/Costa_Rica
 Province du Nord-Kivu	Nord Kivu;Nord-Kivu	CD		division	Africa/Lubumbashi
 Estado de Guanajuato	Guanajuato	MX		division	America/Mexico_City
 Veneto	Veneto	IT		division	Europe/Rome
-New Zealand		NZ		city	
 Provence-Alpes-Cote d'Azur	Provence-Alpes-Côte d'Azur;Provence-Alpes-Côte d'Azur Region	FR		division	Europe/Paris
 Ireland		IE		city	Europe/Dublin
 Fars Province	Fars;Fars Province;The 7th Province	IR		division	Asia/Tehran
@@ -6804,7 +6782,6 @@ Kolkata		IN		city	Asia/Kolkata
 Sydney		AU		city	Australia/Sydney
 Donetska Oblast	Donetsk Oblast;Donetsk	UA		division	Europe/Kiev
 Surat		IN		city	Asia/Kolkata
-Palestine		PS		city	
 Ilocos	Ilocos	PH		division	Asia/Manila
 Province 1	Province 1	NP		division	Asia/Kathmandu
 Taiyuan		CN		city	Asia/Shanghai
@@ -6913,7 +6890,6 @@ Muhafazat al Minufiyah	Monufia Governorate;Monufia	EG		division	Africa/Cairo
 Samara Oblast	Samara Oblast	RU		division	Europe/Samara
 Kasai Province	Kasaï Province;Kasai	CD		division	Africa/Lubumbashi
 Puerto Rico		PR		city	America/Puerto_Rico
-Mongolia		MN		city	
 Kerman Province	the 8th Province;Kerman;Kerman Province	IR		division	Asia/Tehran
 Casablanca		MA		city	Africa/Casablanca
 Wilayat-e Kabul	Kabul Province;Kabul	AF		division	Asia/Kabul
@@ -7538,7 +7514,6 @@ Dombivli		IN		city	Asia/Kolkata
 Ruvuma Region	Ruvuma	TZ		division	Africa/Dar_es_Salaam
 Podlaskie Voivodeship	Podlasie Voivodship;Podlachian Voivodeship;Podlasie;Podlaskie Voivodeship;Podlachian	PL		division	Europe/Warsaw
 Taizhou		CN		city	Asia/Shanghai
-Republic of Cyprus		CY		city	
 White Nile	White Nile;White Nile State	SD		division	Africa/Khartoum
 Eastern Province	Eastern Province	SL		division	Africa/Freetown
 Gustavo Adolfo Madero		MX		city	America/Mexico_City
@@ -9379,7 +9354,6 @@ Binhe		CN		city	Asia/Shanghai
 Windsor		CA		city	America/Toronto
 Coacalco		MX		city	America/Mexico_City
 Ilesa		NG		city	Africa/Lagos
-French Polynesia		PF		city	
 Kostroma		RU		city	Europe/Moscow
 Gijon		ES		city	Europe/Madrid
 Pasco	Pasco Region;Pasco	PE		division	America/Lima
@@ -11736,7 +11710,6 @@ Noginsk		RU		city	Europe/Moscow
 Schoneberg Bezirk		DE		city	Europe/Berlin
 Tinaquillo		VE		city	America/Caracas
 Cavite City		PH		city	Asia/Manila
-Republic of Kiribati		KI		city	
 Zoetermeer		NL		city	Europe/Amsterdam
 Sri Jayewardenepura Kotte		LK		city	Asia/Colombo
 Nasushiobara		JP		city	Asia/Tokyo
@@ -11818,7 +11791,6 @@ Guangming		CN		city	Asia/Shanghai
 Satara		IN		city	Asia/Kolkata
 Rouen		FR		city	Europe/Paris
 Haikou		CN		city	Asia/Shanghai
-Federated States of Micronesia		FM		city	
 Chanduasi		IN		city	Asia/Kolkata
 Nefteyugansk		RU		city	Asia/Yekaterinburg
 Reutlingen		DE		city	Europe/Berlin
@@ -15517,7 +15489,6 @@ Chonglong		CN		city	Asia/Shanghai
 Xinglongshan		CN		city	Asia/Shanghai
 San Pedro de Jujuy		AR		city	America/Argentina/Jujuy
 Fort Beaufort		ZA		city	Africa/Johannesburg
-Republic of the Marshall Islands		MH		city	
 Friedrichshafen		DE		city	Europe/Berlin
 Shahada		IN		city	Asia/Kolkata
 Bridgend		GB	WLS	city	Europe/London
@@ -15823,7 +15794,6 @@ Bilhorod-Dnistrovskyy City Raion		UA		city	Europe/Kiev
 Rubizhne		UA		city	Europe/Zaporozhye
 Pandak		ID		city	Asia/Jakarta
 Gongyi		CN		city	Asia/Shanghai
-Greenland		GL		city	
 Roeselare		BE	VLG	city	Europe/Brussels
 Eisen		KR		city	Asia/Seoul
 Jatani		IN		city	Asia/Kolkata
