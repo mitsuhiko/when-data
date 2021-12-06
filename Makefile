@@ -9,6 +9,7 @@ download:
 	@curl --progress-bar -L http://download.geonames.org/export/dump/alternateNamesV2.zip > dump/alternateNamesV2.zip
 	@cd dump; unzip -o alternateNamesV2.zip
 	@rm dump/{allCountries,alternateNamesV2}.zip
+	@curl --progress-bar -L http://download.geonames.org/export/dump/countryInfo.txt > dump/countryInfo.txt
 
 process:
 	@.venv/bin/python prepare.py

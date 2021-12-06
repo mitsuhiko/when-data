@@ -53,6 +53,27 @@ AN_ISHISTORIC = 7
 AN_FROM = 8
 AN_TO = 9
 
+# country info
+CI_ISO = 0
+CI_ISO3 = 1
+CI_ISO_NUMERIC = 2
+CI_FIPS = 3
+CI_COUNTRY = 4
+CI_CAPITAL = 5
+CI_AREA = 6
+CI_POPULATION = 7
+CI_CONTINENT = 8
+CI_TLD = 9
+CI_CURRENCYCODE = 10
+CI_CURRENCYNAME = 11
+CI_PHONE = 12
+CI_POSTAL_CODE_FORMAT = 13
+CI_POSTAL_CODE_REGEX = 14
+CI_LANGUAGES = 15
+CI_GEONAMEID = 16
+CI_NEIGHBOURS = 17
+CI_EQUIVALENTFIPSCODE = 18
+
 memoized = {}
 
 
@@ -158,6 +179,18 @@ def find_locations():
     return locations
 
 
+def get_countries():
+    rv = {}
+    with open(os.path.join(DATA_PATH, "countryInfo.txt"), "rb") as f:
+        for line in f:
+            line = line.strip()
+            if line.startswith(b"#"):
+                continue
+            pieces = line.decode("utf-8").split("\t")
+            rv[pieces[CI_ISO]] = pieces[CI_COUNTRY]
+    return rv
+
+
 def serialize(value):
     if value is None:
         return ""
@@ -173,6 +206,10 @@ def main():
     with open("locations.txt", "w") as f:
         for loc in locations:
             f.write("\t".join(map(serialize, loc[:-2])) + "\n")
+    click.echo("[4] Writing countries")
+    with open("countries.txt", "w") as f:
+        for code, country in sorted(get_countries().items()):
+            f.write("\t".join([code, country]) + "\n")
 
 
 if __name__ == "__main__":
